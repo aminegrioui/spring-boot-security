@@ -19,8 +19,5 @@ public class HomeResource {
         return  "<h1> Admin </h1>";
     }
 
-    @GetMapping("/name")
-    public String name(){
-        return  "<h1> Amine </h1>";
-    }
+
 }
