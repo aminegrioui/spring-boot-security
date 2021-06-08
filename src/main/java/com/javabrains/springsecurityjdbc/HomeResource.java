@@ -19,5 +19,11 @@ public class HomeResource {
         return  "<h1> Admin </h1>";
     }
 
+    @GetMapping("/featureAdmin")
+    public String featureBranching(){
+        return  "<h1> featureBranching </h1>";
+    }
+
+
 
 }
