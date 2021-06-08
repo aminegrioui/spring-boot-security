@@ -19,5 +19,11 @@ public class HomeResource {
         return  "<h1> Admin </h1>";
     }
 
+    @GetMapping("/admin")
+    public String homeApi(){
+        return  "<h1> homeApi </h1>";
+    }
+
+
 
 }
